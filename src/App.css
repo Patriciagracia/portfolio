@@ -1,0 +1,54 @@
+/* Light theme */
+:root {
+  --main-color: #a5bde1;
+  --secondary-color: #f9f7fe;
+  --text-color: #000000;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --dark-background-color: #171c28;
+  --dark-text-color: #e7e7e7;
+  --selection-color: #eab928;
+}
+
+body {
+  font-family: var(--default-font-family);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+::selection {
+  background: var(--selection-color);
+}
+
+.btn-branding-outline {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--main-color) !important;
+  color: white;
+}
+
+/* Dark theme */
+body.dark-mode {
+  background-color: var(--dark-background-color); /* Modificado */
+  color: var(--dark-text-color); /* Modificado */
+}
+
+body.dark-mode .btn-branding-outline {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+body.dark-mode .btn-branding-outline:hover {
+  background-color: var(--main-color);
+  color: white;
+}

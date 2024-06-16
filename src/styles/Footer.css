@@ -1,0 +1,24 @@
+.footerContainer {
+  background-color: var(--branding-color);
+  padding: 2px;
+}
+
+a {
+  color: black;
+}
+
+.github-icon,
+.linkedin-icon {
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+body.dark-mode .github-icon {
+  background-color: var(--dark-text-color);
+}
+
+body.dark-mode .linkedin-icon {
+  background-color: var(--dark-text-color);
+}

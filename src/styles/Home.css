@@ -1,0 +1,77 @@
+.hero {
+  background-color: var(--secondary-color);
+  padding: 80px 20px;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.hero p {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: -13px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.project-description h2 {
+  font-family: var(--heading-font-family);
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.project-description p {
+  text-align: left;
+}
+
+.project-description .btn-branding-outline {
+  display: inline-block;
+}
+
+#cta {
+  font-size: 23px;
+}
+
+body.dark-mode .hero {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+}
+body.dark-mode p {
+  color: var(--dark-text-color) !important;
+}
+@media (max-width: 900px) {
+  .hero {
+    padding: 50px 20px;
+    margin-bottom: 0px;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  .hero h2 {
+    margin-top: 20px;
+    font-size: 22px !important;
+  }
+  .project-description h2 {
+    font-size: 37px;
+  }
+  .btn {
+    font-size: 15px;
+  }
+
+  #cta {
+    font-size: 18px;
+  }
+}

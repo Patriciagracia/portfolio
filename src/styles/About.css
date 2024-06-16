@@ -1,0 +1,76 @@
+.content h1 {
+  font-size: 66px;
+  line-height: 80px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skills h2,
+.facts h2 {
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.skills {
+  background-color: white;
+  margin-top: 40px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.aboutDescription {
+  text-align: left;
+  margin-top: 95px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.skills li {
+  list-style: none;
+  text-align: left;
+  line-height: 30px;
+}
+
+.liTitle {
+  font-weight: 700;
+}
+
+body.dark-mode .skills {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+}
+
+body.dark-mode a {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 37px !important;
+    line-height: 50px !important;
+    text-align: center !important;
+  }
+
+  h2 {
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+  .aboutDescription {
+    margin-top: 45px;
+  }
+  .content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .skills {
+    padding: 30px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}

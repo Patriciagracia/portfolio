@@ -1,0 +1,46 @@
+.navbar {
+  padding: 8px;
+  background-color: white !important;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 100ms ease-in-out;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  color: var(--branding-color) !important;
+}
+
+.form-check.form-switch {
+  margin-top: 10px;
+}
+
+.form-check-input {
+  margin-top: 8px;
+}
+
+.sun {
+  margin-right: 45px;
+}
+
+.moon {
+  margin-left: -4px;
+}
+
+body.dark-mode .navbar {
+  background-color: var(--dark-background-color) !important;
+  color: var(--dark-text-color) !important;
+}
+
+body.dark-mode .nav-link:visited {
+  color: var(--dark-text-color);
+}
+
+body.dark-mode button {
+  color: var(--dark-text-color) !important;
+  background-color: var(--dark-text-color) !important;
+}
