@@ -1,0 +1,29 @@
+{
+  "title": "Hello! I am Patricia Gracia",
+  "description": "I am a front-end developer transitioning from a background as a self-employed psychologist. During my time as a therapist, I developed crucial skills such as problem-solving, efficient time management, and meticulous attention to detail. I am excited to bring these skills to my new passion for front-end development, creating projects that are both functional and visually appealing.",
+  "skillsTitle": "Skills",
+  "skills": {
+    "languages": "LANGUAGES",
+    "frameworks": "FRAMEWORKS",
+    "tools": "TOOLS",
+    "list": {
+      "javascript": "JavaScript",
+      "html_css": "HTML, CSS",
+      "react": "React",
+      "vite": "Vite",
+      "bootstrap": "Bootstrap",
+      "github": "GitHub",
+      "vercel": "Vercel",
+      "netlify": "Netlify",
+      "jira": "Jira"
+    }
+  },
+  "factsTitle": "Quick random facts to get to know me better:",
+  "facts": [
+    "I've never imagined myself loving to code, but here I am!",
+    "I'm a morning person.",
+    "I practice calisthenics (my current goal is to do a muscle-up).",
+    "My hometown is Zaragoza, but I currently live in Menorca. I also have lived in Madrid and Nottingham.",
+    "I really (like, REALLY) enjoy specialty coffee."
+  ]
+}
