@@ -1,9 +1,11 @@
 import React from "react";
 import "./styles/NavBar.css";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import DarkMode from "./DarkMode";
 
-const NavBar = () => {
+export default function navBar() {
+  const { t } = useTranslation("navbar");
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -22,12 +24,12 @@ const NavBar = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item ms-auto">
               <Link className="nav-link" to="/">
-                Home
+                {t("navbar.home")}
               </Link>
             </li>
             <li className="nav-item ms-auto">
               <Link className="nav-link" to="/about">
-                About
+                {t("navbar.about")}
               </Link>
             </li>
             <li id="switch" className="ms-auto">
@@ -38,6 +40,4 @@ const NavBar = () => {
       </div>
     </nav>
   );
-};
-
-export default NavBar;
+}

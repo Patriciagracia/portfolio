@@ -1,0 +1,29 @@
+{
+  "title": "¡Hola! Soy Patricia Gracia",
+  "description": "Soy una desarrolladora front-end en transición desde una carrera como psicóloga autónoma. Durante mi tiempo como terapeuta, desarrollé habilidades cruciales como la resolución de problemas, la gestión eficiente del tiempo y la atención meticulosa a los detalles. Estoy emocionada de traer estas habilidades a mi nueva pasión por el desarrollo front-end, creando proyectos que sean tanto funcionales como visualmente atractivos.",
+  "skillsTitle": "Skills",
+  "skills": {
+    "languages": "LENGUAJES",
+    "frameworks": "FRAMEWORKS",
+    "tools": "HERRAMIENTAS",
+    "list": {
+      "javascript": "JavaScript",
+      "html_css": "HTML, CSS",
+      "react": "React",
+      "vite": "Vite",
+      "bootstrap": "Bootstrap",
+      "github": "GitHub",
+      "vercel": "Vercel",
+      "netlify": "Netlify",
+      "jira": "Jira"
+    }
+  },
+  "factsTitle": "Algunos datos aleatorios para conocerme mejor:",
+  "facts": [
+    "¡Nunca imaginé que me gustaría programar, pero aquí estoy!",
+    "Soy una persona mañanera.",
+    "Practico calistenia (mi objetivo actual es hacer un muscle-up).",
+    "Soy de Zaragoza, pero actualmente vivo en Menorca. También he vivido en Madrid y Nottingham.",
+    "Me encanta el café de especialidad."
+  ]
+}
