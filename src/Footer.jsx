@@ -1,5 +1,4 @@
 import React from "react";
-
 import githubLogo from "./styles/githubLogo.svg";
 import AnimatedText from "./AnimatedText";
 import "./styles/Footer.css";

@@ -23,55 +23,53 @@ h1 {
   line-height: 1.5;
   font-weight: bold;
 }
-
+.project-description {
+  text-align: left;
+}
 .project-description h2 {
   font-family: var(--heading-font-family);
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 1.1;
-  text-align: left;
 }
 
-.project-description p {
-  text-align: left;
-}
-
-.project-description .btn-branding-outline {
+.project-description .btn {
   display: inline-block;
-}
-
-#cta {
-  font-size: 23px;
 }
 
 body.dark-mode .hero {
   background-color: var(--dark-background-color);
   color: var(--dark-text-color);
 }
+
 body.dark-mode p {
   color: var(--dark-text-color) !important;
 }
+
 @media (max-width: 900px) {
   .hero {
     padding: 50px 20px;
     margin-bottom: 0px;
   }
+
   h1 {
     font-size: 44px;
     line-height: 56px;
   }
+
   .hero h2 {
     margin-top: 20px;
     font-size: 22px !important;
   }
+
   .project-description h2 {
     font-size: 37px;
   }
-  .btn {
-    font-size: 15px;
-  }
 
-  #cta {
-    font-size: 18px;
+  .project-description a.btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
   }
 }
