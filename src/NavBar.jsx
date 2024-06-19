@@ -3,6 +3,7 @@ import "./styles/NavBar.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import DarkMode from "./DarkMode";
+import Translate from "./Translate";
 
 export default function navBar() {
   const { t } = useTranslation("navbar");
@@ -34,6 +35,9 @@ export default function navBar() {
             </li>
             <li id="switch" className="ms-auto">
               <DarkMode />
+            </li>
+            <li id="switch" className="ms-auto">
+              <Translate />
             </li>
           </ul>
         </div>

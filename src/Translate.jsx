@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import languageIcon from "./styles/languageIcon.svg";
 
 export default function Translate() {
   const { i18n } = useTranslation();
@@ -11,7 +12,7 @@ export default function Translate() {
   return (
     <div className="language-switcher">
       <button onClick={() => changeLanguage("en")}>English</button>
-      <button onClick={() => changeLanguage("es")}>Español</button>
+      <img src={languageIcon}></img>
     </div>
   );
 }
