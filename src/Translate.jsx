@@ -1,18 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import languageIcon from "./styles/languageIcon.svg";
+import "./styles/Translate.css";
 
 export default function Translate() {
   const { i18n } = useTranslation();
+  const [language, setLanguage] = useState(i18n.language || "en");
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
+  const toggleLanguage = () => {
+    let newLanguage;
+    if (language === "en") {
+      newLanguage = "es";
+    } else {
+      newLanguage = "en";
+    }
+    i18n.changeLanguage(newLanguage);
+    setLanguage(newLanguage);
   };
 
+  useEffect(() => {
+    setLanguage(i18n.language);
+  }, [i18n.language]);
+
   return (
-    <div className="language-switcher">
-      <button onClick={() => changeLanguage("en")}>English</button>
-      <img src={languageIcon}></img>
+    <div className="language mt-2">
+      <button onClick={toggleLanguage}>
+        {language === "en" ? "Esp" : "En"}
+      </button>
     </div>
   );
 }

@@ -36,7 +36,7 @@ export default function navBar() {
             <li id="switch" className="ms-auto">
               <DarkMode />
             </li>
-            <li id="switch" className="ms-auto">
+            <li className="ms-auto">
               <Translate />
             </li>
           </ul>
