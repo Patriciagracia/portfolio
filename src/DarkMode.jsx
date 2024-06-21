@@ -19,7 +19,7 @@ export default function DarkMode() {
   }
 
   return (
-    <div className="form-check form-switch d-flex justify-content: center">
+    <div className="form-check form-switch d-flex justify-content-center align-items-center">
       <span className="sun">☀️</span>
       <span>
         <input

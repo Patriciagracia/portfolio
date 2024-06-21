@@ -1,6 +1,7 @@
 .navbar {
-  padding: 8px;
+  padding: 20px 0;
   background-color: white !important;
+  display: flex;
 }
 
 .nav-link {
@@ -15,20 +16,29 @@
   color: var(--branding-color) !important;
 }
 
+.nav-link:focus,
+.language-switcher button:focus {
+  font-weight: 560;
+}
+
+.form-check {
+  padding-left: 10px;
+}
+
 .form-check.form-switch {
   margin-top: 10px;
 }
 
-.form-check-input {
-  margin-top: 8px;
-}
-
 .sun {
-  margin-right: 45px;
+  margin-right: 42px;
 }
 
 .moon {
-  margin-left: -4px;
+  margin-left: -8px;
+}
+
+.translate-btn {
+  border-radius: 50%;
 }
 
 body.dark-mode .navbar {

@@ -1,0 +1,14 @@
+.language button {
+  border-radius: 50%;
+  border-width: 0;
+  height: 33px;
+  width: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9px;
+}
+
+body.dark-mode .language button {
+  color: var(--dark-background-color) !important;
+}
