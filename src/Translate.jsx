@@ -23,7 +23,7 @@ export default function Translate() {
 
   return (
     <div className="language mt-2">
-      <button onClick={toggleLanguage}>
+      <button onClick={toggleLanguage} title="Translate">
         {language === "en" ? "Esp" : "En"}
       </button>
     </div>

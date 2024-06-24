@@ -4,12 +4,12 @@
   "welcome": "Echa un vistazo a mis proyectos 👩🏻‍💻",
   "project1": {
     "title": "Conversor de divisas",
-    "description": "Este proyecto está creado con React y utiliza la API de Frankfurter para obtener los tipos de cambio actuales, para que los usuarios siempre tengan los datos de moneda más recientes. Tiene una interfaz fácil de usar. El diseño es responsive, lo que significa que funciona bien tanto en todo tipo de pantallas.",
+    "description": "Este proyecto está creado con React y utiliza la API de Frankfurter para obtener los tipos de cambio actuales, de modo que los usuarios siempre tengan los datos de moneda más recientes. Tiene una interfaz fácil de usar. El diseño es responsive, lo que significa que funciona bien en todo tipo de pantallas.",
     "button": "Visita la web"
   },
   "project2": {
     "title": "One-page de una tienda de café",
-    "description": "One-page inspirada en una tienda online de café que me gusta. Este proyecto está creado usando React y tiene un aspecto moderno y limpio. El diseño es responsive, por lo que funciona bien tanto en dispositivos de escritorio como en móviles. Este proyecto muestra mi capacidad para inspirarme en otros diseños, usar React y crear aplicaciones web responsive que sean fáciles de usar.",
+    "description": "One-page inspirada en una tienda online de café que me gusta. Este proyecto está creado con React y tiene un aspecto moderno y limpio. El diseño es responsive, por lo que funciona bien tanto en dispositivos de escritorio como en móviles.",
     "button": "Visita la web"
   }
 }

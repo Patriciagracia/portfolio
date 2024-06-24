@@ -9,7 +9,7 @@
   },
   "project2": {
     "title": "Coffee Shop Homepage",
-    "description": "I created a one-page website inspired by the style of a coffee shop website I like. This project is built using React and has a modern and clean look. The design is responsive, so it works well on both desktop and mobile devices. This project shows my ability to take inspiration from other designs, use React and create responsive web applications that are easy to use.",
+    "description": "I created a one-page website inspired by the style of a coffee shop website I like. This project is built using React and has a modern and clean look. The design is responsive, so it works well on both desktop and mobile devices.",
     "button": "See Live Website"
   }
 }

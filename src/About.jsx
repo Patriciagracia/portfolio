@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import Footer from "./Footer";
 import "./App.css";
 import "./styles/About.css";
-import personalPhoto from "./styles/personalPhoto.png";
+import personalPhoto from "./styles/images/personalPhoto.png";
 
 export default function About() {
   const { t } = useTranslation("about");
