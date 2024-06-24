@@ -2,8 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "./styles/Home.css";
 import Footer from "./Footer";
-import img2 from "./styles/img2.jpeg";
-import portfolioImg1 from "./styles/portfolioImg1.png";
+import portfolioImg2 from "./styles/images/portfolioImg2.jpeg";
+import portfolioImg1 from "./styles/images/portfolioImg1.png";
 
 export default function Home() {
   const { t } = useTranslation("home");
@@ -19,7 +19,12 @@ export default function Home() {
         <div className="container">
           <div className="row mb-5">
             <div className="col d-none d-lg-block">
-              <img src={portfolioImg1} className="img-fluid" alt="" />
+              <img
+                src={portfolioImg1}
+                className="img-fluid"
+                alt="Currency Converter screenshot"
+                title="Currency Converter screenshot"
+              />
             </div>
             <div className="col" id="projects">
               <div className="project-description">
@@ -50,7 +55,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col d-none d-lg-block">
-                <img src={img2} className="img-fluid" alt="" />
+                <img
+                  src={portfolioImg2}
+                  className="img-fluid"
+                  alt="Coffee Shop Screenshot"
+                  title="Coffee Shop Screenshot"
+                />
               </div>
             </div>
           </div>

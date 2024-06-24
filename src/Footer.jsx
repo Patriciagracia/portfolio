@@ -1,8 +1,8 @@
 import React from "react";
-import githubLogo from "./styles/githubLogo.svg";
+import githubLogo from "./styles/images/githubLogo.svg";
 import AnimatedText from "./AnimatedText";
 import "./styles/Footer.css";
-import linkedinLogo from "./styles/linkedinLogo.svg";
+import linkedinLogo from "./styles/images/linkedinLogo.svg";
 
 export default function Footer() {
   return (
