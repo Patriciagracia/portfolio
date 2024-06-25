@@ -10,7 +10,7 @@ export default function About() {
 
   return (
     <>
-      <div className="content-container container mb-4">
+      <div className="container mb-4">
         <div className="row">
           <div className="col-lg-6 mb-2 aboutDescription">
             <div className="content">

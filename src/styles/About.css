@@ -1,7 +1,13 @@
+.content h1,
+.skills h2,
+.facts h2,
+.liTitle {
+  font-weight: 700;
+}
+
 .content h1 {
   font-size: 66px;
   line-height: 80px;
-  font-weight: 700;
   margin-bottom: 20px;
   text-align: left;
 }
@@ -10,7 +16,6 @@
 .facts h2 {
   font-family: var(--heading-font-family);
   font-size: 50px;
-  font-weight: 700;
 }
 
 .skills {
@@ -25,7 +30,8 @@
   margin-top: 95px;
 }
 
-.content p {
+.content p,
+.skills li {
   font-size: 18px;
   line-height: 30px;
   text-align: left;
@@ -33,12 +39,6 @@
 
 .skills li {
   list-style: none;
-  text-align: left;
-  line-height: 30px;
-}
-
-.liTitle {
-  font-weight: 700;
 }
 
 body.dark-mode .skills {
@@ -61,13 +61,16 @@ body.dark-mode a {
     text-align: center !important;
     font-size: 30px !important;
   }
+
   .aboutDescription {
     margin-top: 45px;
   }
+
   .content p {
     font-size: 16px;
     line-height: 26px;
   }
+
   .skills {
     padding: 30px 10px;
     margin: 0 auto;
