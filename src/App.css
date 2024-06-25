@@ -1,4 +1,3 @@
-/* Light theme */
 :root {
   --main-color: #a5bde1;
   --secondary-color: #f9f7fe;
@@ -17,6 +16,10 @@ body {
   text-align: center;
   background-color: var(--secondary-color);
   color: var(--text-color);
+}
+
+img {
+  border-radius: 6px;
 }
 
 ::selection {
@@ -38,10 +41,9 @@ body {
   color: white;
 }
 
-/* Dark theme */
 body.dark-mode {
-  background-color: var(--dark-background-color); /* Modificado */
-  color: var(--dark-text-color); /* Modificado */
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
 }
 
 body.dark-mode .btn {
