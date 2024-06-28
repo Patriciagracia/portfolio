@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import Footer from "./Footer";
 import "./App.css";
 import "./styles/About.css";
-import personalPhoto from "./styles/images/personalPhoto.png";
+import portrait from "./styles/images/portrait.jpg";
 
 export default function About() {
   const { t } = useTranslation("about");
@@ -20,7 +20,7 @@ export default function About() {
           </div>
           <div className="col-lg-6 mb-2">
             <img
-              src={personalPhoto}
+              src={portrait}
               className="img-fluid mt-4"
               alt="Patricia's photo"
             />
