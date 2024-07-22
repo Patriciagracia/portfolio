@@ -8,6 +8,11 @@
     "button": "Visita la web"
   },
   "project2": {
+    "title": "Formulario de registro en lista de espera",
+    "description": "Este proyecto está hecho con Vite e incorpora EmailJS, una herramienta para enviar correos electrónicos directamente desde el código del cliente o del servidor. La aplicación tiene una interfaz sencilla y fácil de usar, con animaciones CSS sencillas y atractivas. Utilicé Bootstrap para garantizar que sea responsive.",
+    "button": "Visita la web"
+  },
+  "project3": {
     "title": "One-page de una tienda de café",
     "description": "One-page inspirada en una tienda online de café que me gusta. Este proyecto está creado con React y tiene un aspecto moderno y limpio. El diseño es responsive, por lo que funciona bien tanto en dispositivos de escritorio como en móviles.",
     "button": "Visita la web"

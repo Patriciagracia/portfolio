@@ -8,6 +8,11 @@
     "button": "See Live Website"
   },
   "project2": {
+    "title": "Waitlist Registration Form",
+    "description": "This project is built with Vite and incorporates EmailJS, a backend-as-a-service tool for sending emails directly from client or server-side code. The app has a simple and user-friendly interface, with cool CSS animations. Bootstrap is used to make sure it is responsive.",
+    "button": "See Live Website"
+  },
+  "project3": {
     "title": "Coffee Shop Homepage",
     "description": "I created a one-page website inspired by the style of a coffee shop website I like. This project is built using React and has a modern and clean look. The design is responsive, so it works well on both desktop and mobile devices.",
     "button": "See Live Website"
