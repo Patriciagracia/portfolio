@@ -42,7 +42,8 @@ body.dark-mode .hero {
   color: var(--dark-text-color);
 }
 
-body.dark-mode p {
+body.dark-mode p,
+body.dark-mode ul {
   color: var(--dark-text-color) !important;
 }
 
@@ -67,9 +68,10 @@ body.dark-mode p {
   }
 
   .project-description a.btn {
-    display: block;
+    display: flex;
     margin: 0 auto;
     text-align: center;
     width: fit-content;
+    flex-wrap: wrap;
   }
 }

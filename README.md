@@ -1,8 +1,16 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio 👋. This is a website I update each time I develop a new front-end project.
 
-Currently, two official plugins are available:
+# Tech
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build with Vite + React.
+
+# Features
+
+- Dark mode for a better viewing experience in low-light conditions.
+- Language toggle between English and Spanish for multilingual support.
+
+# Visit live website
+
+https://personal-portfolio-nu-black.vercel.app/

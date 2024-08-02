@@ -4,17 +4,44 @@
   "welcome": "Welcome to my portfolio, take a look at my recent projects 👩🏻‍💻",
   "project1": {
     "title": "Currency Converter App",
-    "description": "This project is built with React and uses the Frankfurter API to get the current exchange rates, so users always have the latest currency data. It has an easy-to-use interface that makes converting between different currencies simple. The design is responsive, meaning it works well on both desktop and mobile devices.",
-    "button": "See Live Website"
+    "description": "This project is built with React and uses the Frankfurter API to get the current exchange rates, so users always have the latest currency data. It has an easy-to-use interface that makes converting between different currencies simple. The design is responsive.",
+    "technologies": {
+      "vite": "Vite",
+      "react": "React",
+      "htmlcss": "HTML/CSS",
+      "bootstrap": "Bootstrap",
+      "vercel": "Vercel",
+      "api": "Frankfurter API"
+    },
+    "button": "See Live Website",
+    "repoBtn": "Visit GitHub Repo"
   },
   "project2": {
     "title": "Waitlist Registration Form",
     "description": "This project is built with Vite and incorporates EmailJS, a backend-as-a-service tool for sending emails directly from client or server-side code. The app has a simple and user-friendly interface, with cool CSS animations. Bootstrap is used to make sure it is responsive.",
-    "button": "See Live Website"
+    "technologies": {
+      "vite": "Vite",
+      "react": "React",
+      "htmlcss": "HTML/CSS",
+      "bootstrap": "Bootstrap",
+      "vercel": "Vercel",
+      "emailJS": "EmailJs"
+    },
+    "button": "See Live Website",
+    "repoBtn": "Visit GitHub Repo"
   },
   "project3": {
     "title": "Coffee Shop Homepage",
-    "description": "I created a one-page website inspired by the style of a coffee shop website I like. This project is built using React and has a modern and clean look. The design is responsive, so it works well on both desktop and mobile devices.",
-    "button": "See Live Website"
+    "description": "I created a one-page website inspired by the style of a coffee shop website I like. This project is built using React and has a modern and clean look. The design is responsive.",
+    "technologies": {
+      "vite": "Vite",
+      "react": "React",
+      "htmlcss": "HTML/CSS",
+      "bootstrap": "Bootstrap",
+      "vercel": "Vercel",
+      "npm": "Typewriter-effect npm"
+    },
+    "button": "See Live Website",
+    "repoBtn": "Visit GitHub Repo"
   }
 }
