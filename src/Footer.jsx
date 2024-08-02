@@ -1,4 +1,3 @@
-import React from "react";
 import githubLogo from "./styles/images/githubLogo.svg";
 import AnimatedText from "./AnimatedText";
 import "./styles/Footer.css";
@@ -12,7 +11,7 @@ export default function Footer() {
           <AnimatedText />{" "}
         </div>
         <div className="footer d-flex justify-content-center mb-3">
-          <a href="mailto:patricia@gmail.com" class="email-link">
+          <a href="mailto:patricia@gmail.com" className="email-link">
             {" "}
             patriciagraciaherrero@gmail.com{" "}
           </a>
@@ -22,7 +21,7 @@ export default function Footer() {
             href="https://github.com/Patriciagracia"
             target="blank"
             title="GitHub profile"
-            class="social-icon-wrapper"
+            className="social-icon-wrapper"
           >
             <div className="github-icon">
               <img src={githubLogo} alt="GitHub Logo" />
@@ -33,7 +32,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/patricia-gracia/"
             target="blank"
             title="LinkedIn profile"
-            class="social-icon-wrapper"
+            className="social-icon-wrapper"
           >
             <div className="linkedin-icon">
               <img src={linkedinLogo} alt="Linkedin Logo" />
