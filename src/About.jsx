@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import Footer from "./Footer";
 import "./App.css";
@@ -54,6 +53,7 @@ export default function About() {
                     <li>{t("skills.list.github")}</li>
                     <li>{t("skills.list.vercel")}</li>
                     <li>{t("skills.list.netlify")}</li>
+                    <li>{t("skills.list.cursor")}</li>
                     <li>{t("skills.list.jira")}</li>
                   </ul>
                 </div>

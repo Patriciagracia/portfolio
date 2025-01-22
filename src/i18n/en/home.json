@@ -4,14 +4,15 @@
   "welcome": "Welcome to my portfolio, take a look at my recent projects 👩🏻‍💻",
   "project1": {
     "title": "Currency Converter App",
-    "description": "This project is built with React and uses the Frankfurter API to get the current exchange rates, so users always have the latest currency data. It has an easy-to-use interface that makes converting between different currencies simple. The design is responsive.",
+    "description": "This project is built with React and uses the Frankfurter API to get the current exchange rates, so users always have the latest currency data. It has an easy-to-use interface that makes converting between different currencies simple. It includes a dynamic chart created with Chart.js.",
     "technologies": {
       "vite": "Vite",
       "react": "React",
       "htmlcss": "HTML/CSS",
       "bootstrap": "Bootstrap",
       "vercel": "Vercel",
-      "api": "Frankfurter API"
+      "api": "Frankfurter API",
+      "chart": "Chart.js"
     },
     "button": "See Live Website",
     "repoBtn": "Visit GitHub Repo"

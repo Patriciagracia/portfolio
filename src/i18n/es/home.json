@@ -4,14 +4,15 @@
   "welcome": "Echa un vistazo a mis proyectos 👩🏻‍💻",
   "project1": {
     "title": "Conversor de divisas",
-    "description": "Este proyecto está creado con React y utiliza la API de Frankfurter para obtener los tipos de cambio actuales, de modo que los usuarios siempre tengan los datos de moneda más recientes. Tiene una interfaz fácil de usar. El diseño es responsive.",
+    "description": "Este proyecto está creado con React y utiliza la API de Frankfurter para obtener los tipos de cambio actuales, de modo que los usuarios siempre tengan los datos de moneda más recientes. Tiene una interfaz fácil de usar. Incluye una gráfica dinámica creada con Chart.js",
     "technologies": {
       "vite": "Vite",
       "react": "React",
       "htmlcss": "HTML/CSS",
       "bootstrap": "Bootstrap",
       "vercel": "Vercel",
-      "api": "Frankfurter API"
+      "api": "Frankfurter API",
+      "chart": "Chart.js"
     },
     "button": "Visita la web",
     "repoBtn": "Accede al código"
