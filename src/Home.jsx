@@ -46,6 +46,7 @@ export default function Home() {
                     <li>{t("project1.technologies.vite")}</li>
                     <li>{t("project1.technologies.react")}</li>
                     <li>{t("project1.technologies.htmlcss")}</li>
+                    <li>{t("project1.technologies.chart")}</li>
                   </ul>
                 </div>
                 <div className="col-6">
@@ -58,14 +59,14 @@ export default function Home() {
               </div>
               <div className="mt-2">
                 <a
-                  href="https://currency-conversion-gray.vercel.app/"
+                  href="https://currency-converter-alpha-lilac.vercel.app/"
                   className="btn"
                 >
                   {t("project1.button")}
                 </a>
                 <span className="p-2">
                   <a
-                    href="https://github.com/Patriciagracia/currency-conversion"
+                    href="https://github.com/Patriciagracia/Currency-Conversion-App"
                     className="btn"
                   >
                     {t("project1.repoBtn")}
