@@ -7,7 +7,6 @@ import portfolioImg3 from "./styles/images/portfolioImg3.png";
 
 export default function Home() {
   const { t } = useTranslation("home");
-
   return (
     <>
       <div className="hero">
@@ -18,25 +17,37 @@ export default function Home() {
       <div className="container">
         <div className="row mb-5">
           <div className="col d-none d-md-block">
-            <img
-              src={portfolioImg1}
-              className="img-fluid"
-              alt="Currency Converter screenshot"
-              title="Currency Converter screenshot"
-            />
+            <a
+              href="https://currency-converter-alpha-lilac.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={portfolioImg1}
+                className="img-fluid"
+                alt="Currency Converter screenshot"
+                title="Currency Converter screenshot"
+              />
+            </a>
           </div>
           <div
             className="col d-flex align-items-center justify-content-center"
             id="projects"
           >
             <div className="project-description">
-              <div className="d-block d-md-none mb-5">
-                <img
-                  src={portfolioImg1}
-                  className="img-fluid"
-                  alt="Currency Converter screenshot"
-                  title="Currency Converter screenshot"
-                />
+              <div className="col d-block d-md-none">
+                <a
+                  href="https://currency-converter-alpha-lilac.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={portfolioImg1}
+                    className="img-fluid"
+                    alt="Currency Converter screenshot"
+                    title="Currency Converter screenshot"
+                  />
+                </a>
               </div>
               <h2 className="mb-4 mt-2">{t("project1.title")}</h2>
               <p className="mb-2 text-muted">{t("project1.description")}</p>
@@ -80,12 +91,18 @@ export default function Home() {
           <div className="col d-flex align-items-center justify-content-center">
             <div className="project-description mt-5">
               <div className=" d-block d-md-none mb-5">
-                <img
-                  src={portfolioImg3}
-                  className="img-fluid"
-                  alt="Waitlist Screenshot"
-                  title="Waitlist Screenshot"
-                />
+                <a
+                  href="https://waitlist-blond.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={portfolioImg3}
+                    className="img-fluid"
+                    alt="Waitlist Screenshot"
+                    title="Waitlist Screenshot"
+                  />
+                </a>
               </div>
               <h2 className="mb-4 mt-2">{t("project2.title")}</h2>
               <p className="mb-2 text-muted">{t("project2.description")}</p>
@@ -121,22 +138,35 @@ export default function Home() {
             </div>
           </div>
           <div className="col d-none d-md-block">
-            <img
-              src={portfolioImg3}
-              className="img-fluid"
-              alt="Waitlist Screenshot"
-              title="Waitlist Screenshot"
-            />
+            <a
+              href="https://waitlist-blond.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={portfolioImg3}
+                className="img-fluid"
+                alt="Waitlist Screenshot"
+                title="Waitlist Screenshot"
+              />
+            </a>
           </div>
         </div>
         <div className="row mb-5">
           <div className="col d-none d-md-block">
-            <img
+            <a
+              href="https://coffee-landing-page-seven.vercel.app/"
+              target="_blank"
               src={portfolioImg2}
-              className="img-fluid"
-              alt="Coffee Site screenshot"
-              title="Coffee Site  screenshot"
-            />
+              rel="noopener noreferrer"
+            >
+              <img
+                src={portfolioImg2}
+                className="img-fluid"
+                alt="Coffee Site screenshot"
+                title="Coffee Site  screenshot"
+              />
+            </a>
           </div>
           <div
             className="col d-flex align-items-center justify-content-center"
@@ -144,12 +174,18 @@ export default function Home() {
           >
             <div className="project-description">
               <div className="col d-block d-md-none">
-                <img
-                  src={portfolioImg2}
-                  className="img-fluid"
-                  alt="Coffee Site screenshot"
-                  title="Coffee Site  screenshot"
-                />
+                <a
+                  href="https://coffee-landing-page-seven.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={portfolioImg2}
+                    className="img-fluid"
+                    alt="Coffee Site screenshot"
+                    title="Coffee Site  screenshot"
+                  />
+                </a>
               </div>
               <h2 className="mb-4 mt-2">{t("project3.title")}</h2>
               <p className="mb-2 text-muted">{t("project3.description")}</p>
