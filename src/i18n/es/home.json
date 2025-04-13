@@ -44,5 +44,18 @@
     },
     "button": "Visita la web",
     "repoBtn": "Accede al código"
+  },
+  "project4": {
+    "title": "Macrodata Refinement App (Severance)",
+    "description": "Este proyecto recrea el software de Refinamiento de Macrodatos de la serie Severance (Apple TV+), simulando la inquietante y misteriosa experiencia de clasificación de datos que aparece en la serie. Lo hice por diversión, con la intención de capturar el ambiente extraño de Lumon Industries. Las animaciones de los números están actualmente programadas a mano, y hay bastante margen de mejora: añadir interacciones haría que la experiencia fuera más inmersiva.",
+    "technologies": {
+      "vite": "Vite",
+      "react": "React",
+      "htmlcss": "HTML/CSS",
+      "bootstrap": "Bootstrap",
+      "vercel": "Vercel"
+    },
+    "button": "See Live Website",
+    "repoBtn": "Visit GitHub Repo"
   }
 }
