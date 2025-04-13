@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import portfolioImg1 from "./styles/images/portfolioImg1.png";
 import portfolioImg2 from "./styles/images/portfolioImg2.jpeg";
 import portfolioImg3 from "./styles/images/portfolioImg3.png";
+import portfolioImg4 from "./styles/images/portfolioImg4.png";
 
 export default function Home() {
   const { t } = useTranslation("home");
@@ -221,6 +222,70 @@ export default function Home() {
                   </a>
                 </span>
               </div>
+            </div>
+          </div>
+          <div className="row mb-5">
+            <div className="col d-flex align-items-center justify-content-center">
+              <div className="project-description mt-5">
+                <div className=" d-block d-md-none mb-5">
+                  <a
+                    href="https://waitlist-blond.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={portfolioImg4}
+                      className="img-fluid"
+                      alt="Severance Screenshot"
+                      title="Severance Screenshot"
+                    />
+                  </a>
+                </div>
+                <h2 className="mb-4 mt-2">{t("project4.title")}</h2>
+                <p className="mb-2 text-muted">{t("project4.description")}</p>
+                <div className="row">
+                  <div className="col-6">
+                    <ul className="text-muted">
+                      <li>{t("project4.technologies.vite")}</li>
+                      <li>{t("project4.technologies.react")}</li>
+                      <li>{t("project4.technologies.htmlcss")}</li>
+                    </ul>
+                  </div>
+                  <div className="col-6">
+                    <ul className="text-muted">
+                      <li>{t("project4.technologies.bootstrap")}</li>
+                      <li>{t("project4.technologies.vercel")}</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="mt-2">
+                  <a href="https://severance-nine.vercel.app/" className="btn">
+                    {t("project2.button")}
+                  </a>
+                  <span className="p-2">
+                    <a
+                      href="https://github.com/Patriciagracia/severance/tree/main"
+                      className="btn"
+                    >
+                      {t("project2.repoBtn")}
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col d-none d-md-block">
+              <a
+                href="https://severance-nine.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={portfolioImg4}
+                  className="img-fluid"
+                  alt="Severance Screenshot"
+                  title="Severance Screenshot"
+                />
+              </a>
             </div>
           </div>
         </div>
