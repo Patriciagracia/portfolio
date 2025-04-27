@@ -47,7 +47,7 @@
   },
   "project4": {
     "title": "Macrodata Refinement App (Severance)",
-    "description": "This project recreates the Macrodata Refinement software from the Apple TV+ series Severance, simulating the eerie and mysterious data-sorting experience portrayed in the show. It was built just for fun, with a focus on replicating the unsettling atmosphere of Lumon Industries. The number animations are currently hardcoded, and there’s plenty of room for improvement—adding interactive elements would make the experience more engaging.",
+    "description": "This project recreates the Macrodata Refinement software from the Apple TV+ series Severance, simulating the eerie and mysterious data-sorting experience portrayed in the show. It was built just for fun, with a focus on replicating the unsettling atmosphere of Lumon Industries. There’s plenty of room for improvement—adding interactive elements would make the experience more engaging.",
     "technologies": {
       "vite": "Vite",
       "react": "React",
