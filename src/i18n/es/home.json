@@ -2,6 +2,19 @@
   "greeting": "¡Hola! Soy",
   "name": "Patricia Gracia",
   "welcome": "Echa un vistazo a mis proyectos 👩🏻‍💻",
+  "project0": {
+    "title": "Galería Pexels con scroll infinito",
+    "description": "Aplicación responsive en React que utiliza la API de Pexels. Ofrece scroll infinito y un sistema de favoritos que se guarda de forma local.Por defecto, muestra una selección de fotos curadas por Pexels, pero también permite buscar imágenes concretas por palabra clave. Las fotos se presentan en una galería con scroll infinito y pueden añadirse o quitarse de favoritos en cualquier momento.",
+    "technologies": {
+      "vite": "Vite",
+      "react": "React",
+      "htmlcss": "HTML/CSS",
+      "vercel": "Vercel",
+      "api": "Pexels API"
+    },
+    "button": "See Live Website",
+    "repoBtn": "Visit GitHub Repo"
+  },
   "project1": {
     "title": "Conversor de divisas",
     "description": "Este proyecto está creado con React y utiliza la API de Frankfurter para obtener los tipos de cambio actuales, de modo que los usuarios siempre tengan los datos de moneda más recientes. Tiene una interfaz fácil de usar. Incluye una gráfica dinámica creada con Chart.js",

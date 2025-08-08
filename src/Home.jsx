@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./styles/Home.css";
 import Footer from "./Footer";
+import portfolioImg0 from "./styles/images/portfolioImg0.png";
 import portfolioImg1 from "./styles/images/portfolioImg1.png";
 import portfolioImg2 from "./styles/images/portfolioImg2.jpeg";
 import portfolioImg3 from "./styles/images/portfolioImg3.png";
@@ -15,7 +16,75 @@ export default function Home() {
         <h1>{t("name")}</h1>
         <h2 className="mb-4">{t("welcome")}</h2>
       </div>
+
       <div className="container">
+        <div className="row mb-5">
+          <div className="col d-flex align-items-center justify-content-center">
+            <div className="project-description mt-5">
+              <div className=" d-block d-md-none mb-5">
+                <a
+                  href="https://pexels-infinite-gallery.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={portfolioImg0}
+                    className="img-fluid"
+                    alt="Pexels Screenshot"
+                    title="Pexels Screenshot"
+                  />
+                </a>
+              </div>
+              <h2 className="mb-4 mt-2">{t("project0.title")}</h2>
+              <p className="mb-2 text-muted">{t("project0.description")}</p>
+              <div className="row">
+                <div className="col-6">
+                  <ul className="text-muted">
+                    <li>{t("project0.technologies.vite")}</li>
+                    <li>{t("project0.technologies.react")}</li>
+                    <li>{t("project0.technologies.htmlcss")}</li>
+                  </ul>
+                </div>
+                <div className="col-6">
+                  <ul className="text-muted">
+                    <li>{t("project0.technologies.vercel")}</li>
+                    <li>{t("project0.technologies.api")}</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-2">
+                <a
+                  href="https://pexels-infinite-gallery.vercel.app/"
+                  className="btn"
+                >
+                  {t("project0.button")}
+                </a>
+                <span className="p-2">
+                  <a
+                    href="https://github.com/Patriciagracia/pexels-infinite-gallery"
+                    className="btn"
+                  >
+                    {t("project0.repoBtn")}
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="col d-none d-md-block">
+            <a
+              href="https://pexels-infinite-gallery.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={portfolioImg0}
+                className="img-fluid"
+                alt="Pexels Screenshot"
+                title="Pexels Screenshot"
+              />
+            </a>
+          </div>
+        </div>
         <div className="row mb-5">
           <div className="col d-none d-md-block">
             <a
